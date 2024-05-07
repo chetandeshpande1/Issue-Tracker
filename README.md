@@ -38,3 +38,6 @@ To run the Issue Tracker application locally, follow these steps:
    ```
 
 4. Access the application in your browser at `http://localhost:3200`.
+
+## Deployed Link
+Access the deployed live link: https://issue-tracker-eabg.onrender.com
