@@ -1,0 +1,23 @@
+
+
+<div class="mb-5 p-5">
+  <div class="card mb-4 w-50 m-auto rounded shadow-lg zoom-effect bg-light">
+    <div class="card-header">
+      Name of the project: <%= project.name %>
+    </div>
+    <div class="card-body">
+      <h6 class="card-subtitle mb-4 text-muted">
+        Author: <%= project.author %>
+      </h6>
+      <p class="card-text">
+        Description: <%= project.description %>
+      </p>
+
+      <div class="m-auto text-end">
+        
+      </div>
+    </div>
+  </div>
+  <%-include('./partials/issues'); %>
+</div>
+
